@@ -1,20 +1,32 @@
 body{
     //vh = total de espaço da tela
-    height: 100vh;
+    /*height: 100vh;
     background-color: black;
     //posiciona a imagem
-    background-position: center center;
+    background-position: center center ;
     //pegaimagem
     background-image: url(Imagem/wallpaper003.jpg);
     //deixa de repetirt a imagem
     background-repeat: no-repeat;
     //tamanho (cover = cobre a tela toda)
     background-size: cover;
+    //deixa a tela fixa com o conteudo
+    background-attachment: fixed;*/
 
+    /* short-hand background 
+        color - image - position - repeat - [size] - attachment
+    */
+
+    background: black url('Imagem/wallpaper003.jpg') center center no-repeat fixed;
+
+    background-size: cover;
+
+    
 }
 
 main{
     background-color: white;
+    max-width:  700px; ;
     width: 400px;
     //espaço em volta
     padding: 15px;
