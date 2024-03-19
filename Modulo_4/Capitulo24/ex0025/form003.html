@@ -9,6 +9,7 @@
     <h1>Teste de formu</h1>
     <form action="cadastro.php" method="get" autocomplete="on" >
 
+        <fieldset>
         <p>
             <label for="iusu">usuário</label>
             <input type="text" name="usu" id="iusu" required  minlength="5" maxlength="15"
@@ -30,6 +31,21 @@
             <input type="submit" value="Enviar" >
             <input type="reset" value="Limpar">
         </p>
+        </fieldset>
+        
+        <fieldset>
+            <p>
+            <input type="checkbox" value="esbas" id="iesbas" > <label for="iesbas">basquete</label>
+            <input type="checkbox" value="estenis" id="iestenis" checked><label for="iestenis">tenis</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <p>
+            <input type="radio" name="esbas2" id="iesbas2" > <label for="iesbas2">basquete</label>
+            <input type="radio" name="esbas2" id="iesbas2" checked><label for="iesbas2">basquete2</label>
+            </p>
+        </fieldset>
 
     </form>
 </body>
