@@ -1,1 +1,18 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-color: #233eff;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 0px rgba(19, 33, 140, 0.4039215686);
+  padding: 10px;
+}/*# sourceMappingURL=Style.css.map */
